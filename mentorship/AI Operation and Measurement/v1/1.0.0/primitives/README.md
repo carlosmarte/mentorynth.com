@@ -13,7 +13,7 @@ The atomic building blocks the framework is composed from, extracted from the DR
 | [PR07](PR07-control-primitives.md) | Control | Policy-as-code, Policy Engine, Control Plane, Autonomy Budget Governor, Circuit Breaker, Kill-Switch Runbook, capacity control levers, SoD, Verification Pipeline components, progressive delivery, sandbox, identity vault, AI Gateway, Harness guarantees, side-effect ledger, audit trail |
 | [PR08](PR08-work-artifacts-and-contracts.md) | Work artifacts and contracts | Specification, Handoff Contract, tier contract card, durable skill, golden path, golden evaluation set, versioned prompts/skills, reallocation roster, decision log, portfolio backlog, stage-gate scorecard, promotion schedule, append-only annotation |
 | [PR09](PR09-platform-and-capability.md) | Platform and capability | Shareable / Repeatable / Reusable, the 8 shared capabilities, Foundation, Control functions, environment catalog (Standard / On-request / Out-of-scope), Intent / Context / Agentic layers, Platform Enablement groups |
-| [PR10](PR10-operating-model.md) | Operating model | Rollout Stages 1–4, Five Pillars, Productivity Roof, Six domains, value stream, Framework goals, Continuous Learning Loop, Responsibility pyramid and owner roles, decision rights, precedence, source-of-truth rule, skill progression, scale concerns |
+| [PR10](PR10-operating-model.md) | Operating model | Team rollout stages 1–4, Five Pillars, Business outcome and ROI, Six domains, value stream, Framework goals, Continuous Learning Loop, Responsibility pyramid and owner roles, decision rights, precedence, source-of-truth rule, skill progression, scale concerns |
 
 ## How the families fit together
 

@@ -36,8 +36,8 @@ Illustrative month (one team): pilot reports 400 agent hours; 150 replaced manua
 | **Total Cost of Ownership (TCO)** | Full cost of running an agent; identical to AI Yield's Total Cost. Keeps ROI honest. | Managed by Finance Owner (CFO delegate) who signs off the TCO model. |
 | **ROI / ROI tree** | Value delivered ÷ (cost + risk-adjusted loss). Exists only once gain is net of TCO's taxes; on the board expressed as AI Yield. | VALUE: lead time for change · throughput (features/quarter) · defect escape rate · incident MTTR · adoption. COST: token spend per feature · platform & infra · human review hours. RISK: policy violations · audit findings · data-residency breaches. Attribution: every action cost-tagged and traced, rolled up per team, value stream, region. |
 | **ROAI** (Return on AI Investment) | Audited return on AI spend aggregated from CRM/ERP at Tier 4. | Not expanded on the board. |
-| **Tuition cost** | Budgeted cost of the J-curve dip paid while adapting legacy verification systems to agentic output. | Planned capacity, not a failure. |
-| **Delivery J-curve** | Temporary, budgeted dip in delivery stability and throughput as the organization (and each wave) adapts. | Looks like failure if the pre-AI baseline was not captured. |
+| **Tuition cost** | Budgeted cost of the J-curve dip paid while adapting legacy verification systems to agentic output. | Planned capacity, not a failure. Funded at organization level, planned per team. |
+| **Delivery J-curve** | Organization-wide investment: a temporary, budgeted dip in delivery stability and throughput while verification systems adapt to agentic output. Paid and tracked per team (each team climbs out at its own pace); the roll-up of the team curves is the organization's J-curve. | Looks like failure if the pre-AI baseline was not captured. |
 | **Tokenmaxxing** | Vanity phenomenon of measuring gross token generation or drafting speed while ignoring validation costs. | Anti-metric. |
 | **Amplified Illusion** | Rising agentic speed with falling stability; throughput that does not become deployed value. | Counts as a loss. Detected by the Amplified Illusion Detector. |
 

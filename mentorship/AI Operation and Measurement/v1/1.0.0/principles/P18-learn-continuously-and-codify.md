@@ -5,7 +5,7 @@
 **Why.** Telemetry that nobody acts on, slow feedback from production defects back to prompts and skills, and metrics read out of context or gamed are the failure modes of scale. The loop turns signals into shared assets, guardrails and playbooks.
 
 **Rules.**
-- Adopt: onboard the next wave on golden paths (catalog-approved agents, templates, durable skills), with a champion in every value stream.
+- Adopt: onboard the next wave on golden paths (catalog-approved agents, templates, durable skills), with an AI champion in every team, coordinated per business unit.
 - Measure: instrument the Dimensions SLIs from day one (active vs dormant users, FAR/FRR and rework, token cost, Verification Tax); roll up via the OKR → Telemetry cascade.
 - Learn: review signals by lens on a cadence: weekly team retros (IC), monthly value-stream reviews (M), quarterly OKR resets (L). Find where the J-curve dip is deepest and why.
 - Improve & Codify: turn fixes into reusable assets (prompts, skills, guardrails, runbooks); recalibrate agent autonomy (HITL ↔ HOTL) against error budgets.
@@ -20,4 +20,4 @@
 
 **Related.** P16, P17, P10.
 
-**Source.** Continuous Learning Loop: From Pilot to Platform; Offline Human Alignment & Analysis; Agent Lifecycle Evaluation; What Scale Demands (Continuous Learning).
+**Source.** Continuous Learning Loop (Agentic Perspective); Offline Human Alignment & Analysis; Agent Lifecycle Evaluation; What Scale Demands (Continuous Learning).

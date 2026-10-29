@@ -30,7 +30,7 @@ The objects that define how much an agent may do on its own, and how that change
 |---|---|
 | **Risk class** | High (regulated, financial, safety, irreversible) · Medium (customer-facing, reversible) · Low (internal, easily reversed). |
 | **Risk ceiling** | Highest level an agent may reach by risk class: high → L3 (HITL) · medium → L4–5 (HOTL) · low → L6. A ceiling is a design choice, not a failure. |
-| **Stage ceiling** | Highest level the organization's rollout stage unlocks: Stage 1 → L0–2 · Stage 2 → L3 · Stage 3 → L4–5 · Stage 4 → L6 (low risk only). |
+| **Stage ceiling** | Highest level the team's rollout stage unlocks: Stage 1 → L0–2 · Stage 2 → L3 · Stage 3 → L4–5 · Stage 4 → L6 (low risk only). |
 | **Effective ceiling** | The lower of stage ceiling and risk ceiling. |
 | **Autonomy budget** | Per-agent allowance of autonomous execution privileges; throttled or revoked by the control plane when SQY or stability degrades. |
 | **Exception above risk ceiling** | Granted only by Risk & Compliance Owner + CISO, time-boxed, recorded in the audit trail. The Agent Owner cannot grant it. |

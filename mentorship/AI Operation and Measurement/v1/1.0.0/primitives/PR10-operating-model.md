@@ -2,14 +2,14 @@
 
 The organizational units: stages, pillars, loops, roles and decision rights. Governed by P07, P12, P16, P18, P19.
 
-## Rollout stages (organization-wide, time-boxed)
+## Team rollout stages (per team or business unit, time-boxed; team results roll up to the organization)
 
 | Stage | Timing | Pillars built | Agent levels unlocked | Exit gate (telemetry-computed) | Team |
 |---|---|---|---|---|---|
 | **1 · Foundation** | Months 1–3 | 1 Adoption · 5 Governance | 0–2 (human approves every output) | Telemetry First criteria: ≥95% runs traced · pre-AI baselines · SLI dashboards by lens · redaction and retention approved · 100% of agents in the Agent Catalog | ~6–10 core + middle-management liaisons |
 | **2 · Optimization** | Months 4–6 | 2 Proficiency · 4 Reliability | up to 3 (HITL pilots) | Verification pipeline live · Verification Tax measured and falling · offline eval suite per agent · HITL pilots hold SLOs | ~15–25 |
-| **3 · Value Realization** | Months 7–12 | 3 Throughput · Productivity Roof | up to 5 (HOTL) | AI Yield > 1.0 on top workflows per function · telemetry joined to CRM/ERP/ITSM · error budgets and Governor enforcing demotion automatically | ~30–50 per wave, ~10–15 teams |
-| **4 · Continuous Excellence** | Months 13+ | all five | 6, low-risk only | Ongoing: quarterly total cost vs audited P&L · agents with Verification Tax above time saved retired or re-versioned · full audit trail for every L6 agent | ~10–15 standing CoE + BU champions |
+| **3 · Value Realization** | Months 7–12 | 3 Throughput · Business outcome and ROI | up to 5 (HOTL) | AI Yield > 1.0 on top workflows per function · telemetry joined to CRM/ERP/ITSM · error budgets and Governor enforcing demotion automatically | ~30–50 per wave, ~10–15 teams |
+| **4 · Continuous Excellence** | Months 13+ | all five | 6, low-risk only | Ongoing: quarterly total cost vs audited P&L · agents with Verification Tax above time saved retired or re-versioned · full audit trail for every L6 agent | ~10–15 standing CoE + business unit and team champions |
 
 Stage 1 works from two angles that **meet in the middle**: top-down (leadership defines OKRs, SLAs, Total NPG and distills them into middle-management scorecards) and bottom-up (teams build Agent Catalog, harness, guardrails, SLIs, baselines), connected by middle managers.
 
@@ -18,9 +18,9 @@ Stage 1 works from two angles that **meet in the middle**: top-down (leadership 
 | Primitive | Definition |
 |---|---|
 | **Five Pillars** | 1 Adoption · 2 Proficiency · 3 Throughput · 4 Reliability · 5 Governance. Built through the stages. |
-| **Productivity Roof** | The top layer the pillars support (Tier 4 / C-level): throughput as accepted outcomes per unit of capacity. Reached in Stage 3. |
+| **Business outcome and ROI** | The top layer the pillars support (Tier 4 / C-level): throughput as accepted outcomes per unit of capacity. Reached in Stage 3. |
 | **Six domains** | The framework's six operating domains, rolled out in sequence to avoid overload. Named on the board but never listed together (glossary flag). Those identifiable from section names: Ownership & Delegation · Measurement (The What) · Agent Building · Platform Enablement · Portfolio Governance · Continuous Learning. |
-| **Value stream** | One cross-functional team (product, tech, design, BA, QA, GTM) owning one outcome end to end; the Repeatable unit instantiated from the tier template with its own owners, OKRs and targets. Stages: ① business analysis → ② product & design → ③ development → ④ QA → ⑤ marketing/GTM. |
+| **Value stream** | A business unit (or a unit inside one) owning one outcome end to end, made up of one or more cross-functional teams (product, tech, design, BA, QA, GTM); the Repeatable unit instantiated from the tier template with its own owners, OKRs and targets. Stages: ① business analysis → ② product & design → ③ development → ④ QA → ⑤ marketing/GTM. |
 | **Agent tiers per value stream** | Executive · Portfolio · Delivery · CI/CD agent tiers, each with a tier contract card. |
 | **Lenses** | L Leadership · M Middle management · IC Individual contributor (see PR01). |
 | **Framework goals** | 1 Measure outcomes, not activity · 2 Govern every agent · 3 Earn autonomy safely · 4 Protect quality, shrink the Verification Tax · 5 Reuse before rebuild · 6 Meet in the middle · 7 Learn continuously · 8 Operate at scale. |
@@ -29,7 +29,7 @@ Stage 1 works from two angles that **meet in the middle**: top-down (leadership 
 
 | Step | Content |
 |---|---|
-| **1 · Adopt** | Onboard the next wave on golden paths: catalog-approved agents, templates, durable skills. A champion in every value stream. |
+| **1 · Adopt** | Onboard the next wave on golden paths: catalog-approved agents, templates, durable skills. An AI champion in every team, coordinated per business unit. |
 | **2 · Measure** | Instrument the Dimensions SLIs from day one; roll up via the OKR → Telemetry cascade. |
 | **3 · Learn** | Review signals by lens: weekly team retros (IC) · monthly value-stream reviews (M) · quarterly OKR resets (L). Find where the J-curve dip is deepest and why. |
 | **4 · Improve & Codify** | Turn fixes into reusable assets (prompts, skills, guardrails, runbooks). Recalibrate autonomy (HITL ↔ HOTL) against error budgets. |
@@ -83,9 +83,9 @@ Flow: mandates and "what matters" cascade down; evidence, metrics and exceptions
 
 | Dimension | What breaks | What addresses it |
 |---|---|---|
-| **Adoption** | Uneven uptake (power users vs shelfware) · trust gap from rework and override/fallback · Product, QA, Ops left behind Dev · change fatigue in the J-curve | Executive sponsorship + middle-management scorecards · AI champions network with protected time · role-based learning paths · office hours and pairing · license budget tied to active use · acceptable-use policy and safe-to-try zones · support desk SLA ≤ 30 min · recognition for reuse |
+| **Adoption** | Uneven uptake (power users vs shelfware) · trust gap from rework and override/fallback · Product, QA, Ops left behind Dev · change fatigue in the J-curve | Executive sponsorship (company-level) + middle-management scorecards per business unit · AI champions per team (coordinated per business unit) with protected time · role-based learning paths · office hours and pairing · license budget tied to active use · acceptable-use policy and safe-to-try zones · support desk SLA (target in OKR → Telemetry Cascade) · recognition for reuse |
 | **Integration** | Agents bolted on, not designed in · fragmented toolchains, APIs, schemas · context gaps (low repo AI-knowledge coverage) · Verification Tax shifting load to reviewers | MCP servers / connectors · harness with HITL/HOTL controls and audit trail · AI-aware CI/CD gates · observability (traces, SLIs, error budgets) · reference architectures and API/schema contracts · curated context (repo indexing, domain packs) · integration engineers embedded in value streams · time to redesign workflows |
-| **Rollout** | J-curve dip per wave · Shadow AI and duplicate tools · uneven guardrail coverage · token cost growing faster than value | Readiness criteria per wave · error-budget rule (pause or roll back) · portfolio review halting low-ROI scale-up · a named owner per catalog agent · wave plan ~10–15 teams · tuition budget · security and governance reviewers sized per wave · shared platform with N instances · policy-as-code guardrails, secret scanning, PQC gates · feature flags · token budgets and model routing |
-| **Continuous learning** | Telemetry nobody acts on · local wins don't travel · metrics read out of context or gamed · slow feedback from defects to prompts | Loop cadence (weekly/monthly/quarterly) · forum promoting local tools · decision log · evidence-based autonomy recalibration · Dimensions dashboard by lens with a named owner · eval harness (quality, FAR/FRR, adherence) · in-tool feedback capture · experiment tracking · community of practice · playbook and durable-skill repository · retro time in the sprint |
+| **Rollout** | J-curve dip per team (team curves roll up to the organization's J-curve) · Shadow AI and duplicate tools · uneven guardrail coverage · token cost growing faster than value | Readiness per team: Telemetry First exit criteria · burn-rate alert → roll back; error budget exhausted → freeze releases and demote · portfolio review per business unit: scale up agents with AI Yield > 1.0, the rest keep / vN+1 / retire · a named owner per catalog agent · wave plan (a wave = teams onboarding together, ~10–15 teams) · tuition budget · security and governance reviewers sized per wave · shared platform with N instances · policy-as-code guardrails, secret scanning, PQC gates · feature flags · token budgets and model routing |
+| **Continuous learning** | Telemetry nobody acts on · local wins don't travel · metrics read out of context or gamed · slow feedback from defects to prompts | Loop cadence (weekly/monthly/quarterly) · forum promoting local tools · decision log · per-agent autonomy recalibration through promotion and demotion gates · Dimensions dashboard by lens with a named owner · eval harness (quality, FAR/FRR, adherence) · in-tool feedback capture · experiment tracking · community of practice · playbook and durable-skill repository · retro time in the sprint |
 
 **Source.** Phased Rollouts; Rollout stages ↔ agent levels; Framework Goals; Continuous Learning Loop; The How (Responsibility Pyramid, owners); Ownership and Delegation; What Scale Demands.
